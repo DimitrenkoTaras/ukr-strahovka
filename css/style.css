@@ -138,6 +138,34 @@ h6 {
   margin: 0 auto;
 }
 
+h1,
+.h1 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #333;
+}
+
+h2,
+.h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #333;
+}
+
+h3,
+.h3 {
+  font-size: 27px;
+  font-weight: 500;
+  color: #333;
+}
+
+h4,
+.h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
 ._btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,62 +233,6 @@ h6 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.title {
-  font-size: 36px;
-  font-weight: 500;
-  color: #333;
-}
-
-.title_left {
-  text-align: left;
-}
-
-.title_right {
-  text-align: right;
-}
-
-.title_width {
-  max-width: 865px;
-  margin: 0px auto;
-}
-
-.title_second {
-  text-align: left;
-  color: #f0f0f0;
-}
-
-.title_size {
-  font-size: 27px;
-}
-
-h1,
-.h1 {
-  font-size: 42px;
-  font-weight: 500;
-  color: #333;
-}
-
-h2,
-.h2 {
-  font-size: 36px;
-  font-weight: 500;
-  color: #333;
-}
-
-h3,
-.h3 {
-  font-size: 27px;
-  font-weight: 500;
-  color: #333;
-}
-
-h4,
-.h4 {
-  font-size: 18px;
-  font-weight: 500;
-  color: #333;
 }
 
 .table-1 {
@@ -4123,10 +4095,6 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 @media (max-width: 479.98px) {
-  .title {
-    font-size: 25px;
-  }
-
   h2,
   .h2 {
     font-size: 25px;
