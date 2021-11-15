@@ -208,7 +208,6 @@ h6 {
 }
 
 .title {
-  text-align: center;
   font-size: 36px;
   font-weight: 500;
   color: #333;
@@ -234,6 +233,34 @@ h6 {
 
 .title_size {
   font-size: 27px;
+}
+
+h1,
+.h1 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #333;
+}
+
+h2,
+.h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #333;
+}
+
+h3,
+.h3 {
+  font-size: 27px;
+  font-weight: 500;
+  color: #333;
+}
+
+h4,
+.h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
 }
 
 .table-1 {
@@ -928,6 +955,7 @@ h6 {
 }
 
 .faq-1__title {
+  color: #f0f0f0;
   margin-top: 50px;
   margin-bottom: 55px;
 }
@@ -1133,6 +1161,7 @@ h6 {
 }
 
 .helper__title {
+  text-align: right;
   max-width: 716px;
   margin: 0px 0px 50px 0px;
 }
@@ -1281,10 +1310,6 @@ h6 {
   z-index: -1;
 }
 
-.table-3 {
-  overflow-x: auto;
-}
-
 .table-3__body {
   width: 100%;
   border-collapse: collapse;
@@ -1323,7 +1348,7 @@ h6 {
 }
 
 .table-3 td:first-child {
-  padding: 15.5px 19px;
+  padding: 15.5px 18px;
   font-size: 20px;
   font-weight: 500;
   color: #fff;
@@ -1441,6 +1466,61 @@ h6 {
   line-height: 120%;
   font-weight: 400;
   color: #555555;
+}
+
+.table-4 {
+  overflow-x: auto;
+}
+
+.table-4__body {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.table-4 tr {
+  background-color: #F1F5FF;
+}
+
+.table-4 tr:nth-child(2n) {
+  background-color: #fff;
+}
+
+.table-4 th {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  padding: 13.5px 10px;
+  background-color: #fce673;
+}
+
+.table-4 th:not(:last-child) {
+  border-right: 2px solid #B9B9B9;
+}
+
+.table-4 td {
+  width: 21.666%;
+  font-size: 16px;
+  color: #555;
+  line-height: 118.75%;
+  text-align: center;
+  padding: 15.5px 12px;
+  border: 2px solid #E3E9F8;
+}
+
+.table-4 td:first-child {
+  text-align: left;
+  width: 41.666%;
+  padding: 15.5px 19px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  background-color: transparent;
+}
+
+.table-4 td:last-child {
+  width: 15%;
 }
 
 .header {
@@ -1657,6 +1737,10 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
   color: #555;
 }
 
+.main-slider {
+  position: relative;
+}
+
 .main-slider__slide {
   padding-top: 160px;
   padding-bottom: 108px;
@@ -1675,7 +1759,6 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 .main-slider__row {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1687,8 +1770,8 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
           flex: 0 0 50%;
 }
 
-.main-slider__image {
-  padding-left: 40px;
+.main-slider__col_01 {
+  position: relative;
 }
 
 .main-slider__image img {
@@ -1696,7 +1779,6 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 .main-slider__title {
-  font-size: 42px;
   margin: 113px 0px 34px 0px;
 }
 
@@ -1736,8 +1818,8 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 
 .main-slider .swiper-pagination {
   position: absolute;
-  top: 20px;
-  right: 0px;
+  top: 0px;
+  left: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1785,7 +1867,7 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 0px 0px 10px 0px;
+  margin: 5px 0px;
 }
 
 .slider-card {
@@ -1880,6 +1962,7 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 .ratings__title {
+  text-align: center;
   margin: 0px 0px 17px 0px;
 }
 
@@ -1920,6 +2003,7 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 .views__title {
+  text-align: center;
   margin: 0px 0px 27px 0px;
 }
 
@@ -2153,6 +2237,7 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 .articles__title {
+  text-align: center;
   margin: 0px 0px 39px 0px;
 }
 
@@ -2479,6 +2564,7 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 .osago-views__title {
+  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -2553,7 +2639,9 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 .osago-prices__title {
-  margin-bottom: 33px;
+  text-align: center;
+  max-width: 865px;
+  margin: 0px auto 33px;
 }
 
 .osago-prices__table-2 {
@@ -2573,6 +2661,7 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 .osago-comparison__title {
+  text-align: center;
   margin-bottom: 25px;
 }
 
@@ -2623,6 +2712,7 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 .strahovka-terms__title {
+  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -2639,6 +2729,7 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 .strahovka-price__title {
+  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -2684,6 +2775,7 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 .karta-terms__title {
+  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -2710,6 +2802,7 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 .karta-actions__title {
+  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -2772,6 +2865,7 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 .kasko-comparison__title {
+  text-align: center;
   margin-bottom: 25px;
 }
 
@@ -2784,6 +2878,7 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 .kasko-views__title {
+  text-align: center;
   margin-bottom: 25px;
 }
 
@@ -2804,6 +2899,7 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 }
 
 .kasko-price__title {
+  font-size: 27px;
   margin-bottom: 25px;
 }
 
@@ -2869,23 +2965,15 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
   margin-bottom: 50px;
 }
 
-.rejtingi-info__table-3 {
+.rejtingi-info__table-4 {
   padding-bottom: 15px;
   margin-bottom: 55px;
 }
 
-.rejtingi-info__table-3 .table-3__body td {
-  width: 21.666%;
-}
-
-.rejtingi-info__table-3 .table-3__body td:first-child {
-  text-align: left;
-  width: 41.666%;
-  background-color: transparent;
-}
-
-.rejtingi-info__table-3 .table-3__body td:last-child {
-  width: 15%;
+@media (min-width: 479.98px) {
+  .main-slider__image {
+    padding-left: 40px;
+  }
 }
 
 @media (min-width: 767.98px) {
@@ -2947,9 +3035,20 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
   }
 }
 
+@media (max-width: 1240px) {
+  .main-slider .swiper-pagination {
+    left: 20px;
+  }
+}
+
 @media (max-width: 1212px) {
   ._container {
     max-width: 970px;
+  }
+
+  h1,
+  .h1 {
+    font-size: 38px;
   }
 
   .answer-card {
@@ -3017,10 +3116,6 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 
   .main-slider__slide {
     padding-top: 90px;
-  }
-
-  .main-slider__title {
-    font-size: 40px;
   }
 
   .slider-card__description {
@@ -3396,7 +3491,7 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
     margin-bottom: calc(30px + 20 * ((100vw - 320px) / 880));
   }
 
-  .rejtingi-info__table-3 {
+  .rejtingi-info__table-4 {
     margin-bottom: calc(15px + 40 * ((100vw - 320px) / 880));
   }
 }
@@ -3476,8 +3571,17 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
     padding: 0px 0px 40% 0px;
   }
 
+  .table-3 td:first-child {
+    padding: 15.5px 10px;
+    font-size: 16px;
+  }
+
   .goroda-card__image {
-    margin-left: 10px;
+    display: none;
+  }
+
+  .goroda-card__text {
+    padding: 22px 20px 35px 20px;
   }
 
   .goroda-card__city {
@@ -3516,11 +3620,8 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
     text-align: center;
   }
 
-  .main-slider__image {
-    padding-left: 0px;
-  }
-
   .main-slider__title {
+    text-align: left;
     margin: 15px 0px 20px 0px;
   }
 
@@ -3538,12 +3639,15 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
   }
 
   .main-slider .swiper-pagination {
-    display: none;
+    top: 25%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 
   .main-slider__btn-prev,
   .main-slider__btn-next {
-    top: 55%;
+    bottom: 0px;
   }
 
   .slider-card__description_width {
@@ -3695,15 +3799,17 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
     margin: 0px 0px 30px 0px;
   }
 
+  .table-3 th {
+    font-size: 16px;
+  }
+
   .goroda-card__title {
     font-size: 25px;
     line-height: 110%;
   }
 
-  .goroda-card__city {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+  .table-4 td {
+    min-width: 121px;
   }
 
   .header {
@@ -3951,10 +4057,6 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
   .page {
     padding-top: 73px;
   }
-
-  .rejtingi-info__table-3 .table-3__body td {
-    min-width: 121px;
-  }
 }
 
 @media (max-width: 767.98px) and (max-width: 380px) {
@@ -3963,43 +4065,52 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
   }
 }
 
-@media (max-width: 670px) {
-  .kasko-comparison__table-3::before {
-    content: '';
-    background: url(../img/icons/swipe.svg) center/100% no-repeat;
+@media (max-width: 650px) {
+  .table-3 th {
+    display: none;
+  }
+
+  .table-3 td:first-child {
+    border: none;
+    text-align: center;
+  }
+
+  .table-3 td {
     display: block;
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .table-3 td::before {
+    content: attr(data-label);
+    position: relative;
+    top: -3px;
+    font-weight: bold;
+  }
+
+  .goroda-card__city {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+
+  .kasko-comparison__table-3 {
+    max-width: 400px;
+    margin: 0px auto;
+  }
+
+  .kasko-views__table-3 td {
+    text-align: left;
   }
 }
 
 @media (max-width: 600px) {
-  .rejtingi-info__table-3::before {
+  .rejtingi-info__table-4::before {
     content: '';
     background: url(../img/icons/swipe.svg) center/100% no-repeat;
     display: block;
     width: 50px;
     height: 50px;
     margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 570px) {
-  .kasko-views__table-3::before {
-    content: '';
-    background: url(../img/icons/swipe.svg) center/100% no-repeat;
-    display: block;
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 520px) {
-  .main-slider__btn-prev,
-  .main-slider__btn-next {
-    top: 51%;
   }
 }
 
@@ -4013,6 +4124,11 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 
 @media (max-width: 479.98px) {
   .title {
+    font-size: 25px;
+  }
+
+  h2,
+  .h2 {
     font-size: 25px;
   }
 
@@ -4132,15 +4248,6 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
     font-size: 20px;
   }
 
-  .table-3 td:first-child {
-    padding: 15.5px 5px;
-    font-size: 15px;
-  }
-
-  .goroda-card__image {
-    display: none;
-  }
-
   .goroda-card__title {
     margin: 0px 0px 30px 0px;
   }
@@ -4149,8 +4256,21 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
     margin: 0px 0px 15px 0px;
   }
 
+  .table-4 td:first-child {
+    padding: 15.5px 5px;
+    font-size: 15px;
+  }
+
+  .main-slider__title {
+    font-size: 25px;
+  }
+
   .main-slider__description {
     font-size: 16px;
+  }
+
+  .main-slider .swiper-pagination {
+    display: none;
   }
 
   .rescuer {
@@ -4244,11 +4364,6 @@ body._touch .header-menu__list > li._active .header-menu__arrow {
 
   body._touch .header-menu__arrow {
     top: 4.5px;
-  }
-
-  .main-slider__btn-prev,
-  .main-slider__btn-next {
-    top: 45%;
   }
 }
 
