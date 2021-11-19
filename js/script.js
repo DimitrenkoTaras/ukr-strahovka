@@ -48,7 +48,7 @@ if (iconMenu) {
     });
 }
 // slider-swiper
-let myImageSlider = new Swiper('.main-slider', {
+let mainSlider = new Swiper('.main-slider', {
     slidesPerView: 1,
     slidesPerGroup: 1,
     speed:1500,
@@ -73,6 +73,31 @@ let myImageSlider = new Swiper('.main-slider', {
     autoHeight: true,
     watchOverflow: true,
     simulateTouch: false,
+});
+let articlesSlider = new Swiper('.articles-slider', {
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+    speed: 1000,
+    spaceBetween: 19.5,
+    navigation: {
+        prevEl: '.articles-slider__btn-prev',
+        nextEl: '.articles-slider__btn-next'
+    },
+    preloadImages: false,
+    lazy: {
+        loadPrevNext: true,
+    },
+    autoHeight: true,
+    watchOverflow: true,
+    simulateTouch: false,
+    breakpoints: {
+        479.98: {
+            slidesPerView: 2,
+        },
+        767.98: {
+            slidesPerView: 3,
+        },
+    },
 });
 // spoiler
 const spoilersArray = document.querySelectorAll('[data-spoilers]');
